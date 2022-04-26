@@ -39,7 +39,6 @@ def sequence_cleaner(fasta_file, min_length=0, por_n=100):
         for sequence in sequences:
             output_file.write(">" + sequences[sequence] + "\n" + sequence + "\n")
 
-    print("CLEAN!!!\nPlease check clear_" + fasta_file)
 
 
 userParameters = sys.argv[1:]
